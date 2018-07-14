@@ -1,7 +1,7 @@
 ## makeacheMatrix is a Parent function/environmnt containing 
 ## (i) a variable for storing inverse of given matrix. 
 ## (ii) get and set functions for the inverse variable
-## a list containing the set/get functions so that those functions can be made
+## (iii) a list containing the set/get functions so that those functions can be made
 ## available to the caller of makeacheMatrix as a list of funtions
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
